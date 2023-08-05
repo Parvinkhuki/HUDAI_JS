@@ -14,6 +14,6 @@ function useBreakNegNum(arr){
   
 }return newArr;
 }
-let array =[23,12,44,22,51,44,11,2,-56,89];
+let array =[23,12,4,44,2,-56,89];
 let newarray =useBreakNegNum(array);
 console.log(newarray)
